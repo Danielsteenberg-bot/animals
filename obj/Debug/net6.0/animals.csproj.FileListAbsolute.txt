@@ -13,3 +13,8 @@ C:\Users\Daniel\Desktop\learning\c++\animals\animals\obj\Debug\net6.0\refint\ani
 C:\Users\Daniel\Desktop\learning\c++\animals\animals\obj\Debug\net6.0\animals.pdb
 C:\Users\Daniel\Desktop\learning\c++\animals\animals\obj\Debug\net6.0\animals.genruntimeconfig.cache
 C:\Users\Daniel\Desktop\learning\c++\animals\animals\obj\Debug\net6.0\ref\animals.dll
+C:\Users\Daniel\Desktop\learning\c++\animals\animals\bin\Debug\net6.0\xunit.abstractions.dll
+C:\Users\Daniel\Desktop\learning\c++\animals\animals\bin\Debug\net6.0\xunit.assert.dll
+C:\Users\Daniel\Desktop\learning\c++\animals\animals\bin\Debug\net6.0\xunit.core.dll
+C:\Users\Daniel\Desktop\learning\c++\animals\animals\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\Daniel\Desktop\learning\c++\animals\animals\obj\Debug\net6.0\animals.csproj.CopyComplete

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\animals.csproj": {}
+    "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\Animals.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\animals.csproj": {
+    "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\Animals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\animals.csproj",
-        "projectName": "animals",
-        "projectPath": "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\animals.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\Animals.csproj",
+        "projectName": "Animals",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\Animals.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Daniel\\Desktop\\learning\\c++\\animals\\animals\\obj\\",
         "projectStyle": "PackageReference",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
