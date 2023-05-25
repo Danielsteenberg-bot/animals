@@ -64,6 +64,15 @@ namespace Animals {
     {
         public static void Main()
         {
+           // Console.WriteLine("Enter a Animal Kingdom");
+           // string userInput1 = Console.ReadLine();
+            Console.WriteLine("Enter a name");
+            string userInput2 = Console.ReadLine();
+            
+
+            Cat lion = new Cat(userInput2, 100, "carnivore", "cream", false);
+            Console.WriteLine($"Animal name: {lion.Name}, Animal Weight: {lion.Weight}kg, Animal Diet: {lion.Diet}, Animal fur color: {lion.FurColor}, Is the animal domesticated: {lion.Domesticated}");
+
             Bird sparrow = new Bird("Sparrow", 30, "Omnivore", 15, "Brown");
             Console.WriteLine($"Name: {sparrow.Name}, Weight: {sparrow.Weight}g, Diet: {sparrow.Diet}, Wingspan: {sparrow.Wingspan}cm, Beak Color: {sparrow.BeakColor}");
 
