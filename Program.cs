@@ -1,4 +1,5 @@
 ﻿using System;
+using animals;
 
 namespace Animals { 
     public class Animal
@@ -30,19 +31,7 @@ namespace Animals {
         }
     }
 
-    public class Cat : Animal
-    {
-        public string FurColor { get; set; }
-        public bool Domesticated { get; set; }
 
-        // Constructor
-        public Cat(string name, int weight, string diet, string furColor, bool domesticated)
-            : base(name, weight, diet)
-        {
-            FurColor = furColor;
-            Domesticated = domesticated;
-        }
-    }
 
     public class Spider : Animal
     {
