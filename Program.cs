@@ -8,12 +8,14 @@ namespace Animals
         public int Weight { get; set; }
         public string Diet { get; set; }
 
+
         // Constructor
         public Animal(string name, int weight, string diet)
         {
             Name = name;
             Weight = weight;
             Diet = diet;
+
         }
     }
 
@@ -33,7 +35,6 @@ namespace Animals
 
             Spider blackWidow = new("Black Widow", 002, "Carnivore", "Ambush", true);
             Console.WriteLine($"Name: {blackWidow.Name}, Weight: {blackWidow.Weight}g, Diet: {blackWidow.Diet}, Hunting Style: {blackWidow.HuntingStyle}, Poisonous: {blackWidow.Poisonous}");
-
 
             Spider houseSpider = new("House Spider", 001, "Carnivore", "Ambush", true);
             Console.WriteLine($"Name: {houseSpider.Name}, Weight: {houseSpider.Weight}g, Diet: {houseSpider.Diet}, Hunting Style: {houseSpider.HuntingStyle}, Poisonous: {houseSpider.Poisonous}");

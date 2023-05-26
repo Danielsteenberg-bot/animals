@@ -13,7 +13,6 @@ namespace animals.ClassFolder
         public int Wingspan { get; set; }
         public string BeakColor { get; set; }
 
-        // Constructor
         public Bird(string name, int weight, string diet, int wingspan, string beakColor)
             : base(name, weight, diet)
         {
