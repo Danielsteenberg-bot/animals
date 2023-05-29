@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "animals/1.0.0": {
+      "Animals/1.0.0": {
         "dependencies": {
           "xunit": "2.4.2"
         },
         "runtime": {
-          "animals.dll": {}
+          "Animals.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -740,7 +740,7 @@
     }
   },
   "libraries": {
-    "animals/1.0.0": {
+    "Animals/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

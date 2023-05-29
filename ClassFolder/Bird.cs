@@ -7,7 +7,7 @@ using Animals;
 
 namespace animals.ClassFolder
 {
-    internal class Bird : Animal
+    public class Bird : Animal
     {
 
         public int Wingspan { get; set; }
